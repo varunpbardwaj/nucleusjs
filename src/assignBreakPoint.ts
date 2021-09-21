@@ -38,7 +38,7 @@ export default function AssignBreakpoint(props: {
         }
     }
 
-    window.addEventListener('load', getBreakPoint);
+    getBreakPoint();
 
     window.addEventListener('resize', getBreakPoint);  
 }
