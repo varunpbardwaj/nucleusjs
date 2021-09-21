@@ -6,7 +6,7 @@ import boxShadow from "./boxShadow";
 import color from "./color";
 import combineStyles from "./combineStyles";
 import cursor from "./cursor";
-import displayFlex from "./displayFlex";
+import display from "./display";
 import eventStyles from "./eventStyles";
 import flexAlign from "./flexAlign";
 import flexDirection from "./flexDirection";
@@ -33,7 +33,7 @@ const nucleus = {
     cursor,
     eventStyles,
     flexAlign,
-    displayFlex,
+    display,
     flexDirection,
     flexJustify,
     flexWrap,

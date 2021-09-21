@@ -1,4 +1,4 @@
-import flexValue from "./flexValue.enum";
+import flexValue from "./displayValue.enum";
 
 const flexJustify = (type: string, value: string) => {
     return (

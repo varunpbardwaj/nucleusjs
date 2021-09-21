@@ -1,7 +1,7 @@
 import nucleus from "./nucleus";
 
-const InjectStyles = (Styles: {}) => {
-    return Object.assign({}, { ...nucleus, ...Styles });
+const InjectStyles = () => {
+    return Object.assign({}, { ...nucleus });
 };
 
 export default InjectStyles;

@@ -1,4 +1,4 @@
-enum flexValue {
+enum displayValue {
     "flex" = "flex",
     "block" = "block",
     "none" = "none",
@@ -23,4 +23,4 @@ enum flexValue {
     "wrapReverse" = "wrap-reverse"
 }
 
-export default flexValue;
+export default displayValue;

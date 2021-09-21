@@ -1,2 +1,2 @@
-export { default as nucleusConnect } from "./NucleusConnect";
-export { default as NucleusProvider } from "./NucleusProvider"
+import nucleusConnect from "./NucleusConnect"
+export default nucleusConnect;

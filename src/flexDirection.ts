@@ -1,4 +1,4 @@
-import flexValue from "./flexValue.enum";
+import flexValue from "./displayValue.enum";
 
 const flexDirection = (value: string) => {
     return { flexDirection: flexValue[value] } 

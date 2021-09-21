@@ -1,4 +1,4 @@
-import flexValue from "./flexValue.enum";
+import flexValue from "./displayValue.enum";
 
 const flexAlign = (type: string, value: string) => {
     return (

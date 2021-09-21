@@ -1,13 +1,13 @@
 import React from 'react';
 import InjectStyles from './injectStyles';
 
-function NucleusConnect(Consumer: any, injectStyles: {}) {
+function NucleusConnect(Consumer: any) {
     return class extends React.Component {
         constructor(props: any) {
             super(props);
         }
         render() {
-            return <Consumer {...this.props} { ...InjectStyles(injectStyles) } />
+            return <Consumer {...this.props} { ...InjectStyles() } />
         }
     } 
 }
