@@ -7,11 +7,11 @@ export default function AssignBreakpoint(props: {
         props.points : 
         {
             xs: 0,
-            sm: 576,
-            md: 768,
-            lg: 992,
-            xl: 1200,
-            xxl: 1400
+            sm: 768,
+            md: 992,
+            lg: 1200,
+            xl: 1400,
+            xxl: 1800
         }
 
     const getBreakPoint = () => {
@@ -38,7 +38,7 @@ export default function AssignBreakpoint(props: {
         }
     }
 
-    getBreakPoint();
+    window.addEventListener("load", getBreakPoint);
 
-    window.addEventListener('resize', getBreakPoint);  
+    window.addEventListener("resize", getBreakPoint);  
 }
