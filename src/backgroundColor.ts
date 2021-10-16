@@ -2,7 +2,7 @@ import theme from "./theme.enum";
 
 const backgroundColor = (color: string) => {
     return {
-        backgroundColor: theme[color]
+        backgroundColor: theme[color] ? theme[color] : color
     }
 };
 
